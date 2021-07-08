@@ -13,6 +13,6 @@ class CreateNetworks < ActiveRecord::Migration[5.1]
       # the above breaks down to
       # "create a column called :call_letters on table t with type string
       t.integer :channel
-    end
+    end 
   end
 end
